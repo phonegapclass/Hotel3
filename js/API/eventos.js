@@ -1,8 +1,8 @@
 $(function(){
     document.addEventListener("deviceready",function(){
         //Sección de Registro -INICIO------------------------------------------
-        /*if(!estaRegistrado())
-            window.location.href = "#registro";*/
+        if(!estaRegistrado())
+            window.location.href = "#registro";
         
         $('#regEnv').tap(function(){
             var nom = $('#regNom').val();
