@@ -41,7 +41,7 @@ $(function(){
             var th = $('#nr1').attr('th');
             
             if(estaConectado())
-                //Enviar al Servidor
+                sincronizarReserva(th,per,dia,hab);
             else
                 crearReserva(th,per,dia,hab);
         });
